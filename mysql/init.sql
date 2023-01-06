@@ -1,0 +1,6 @@
+CREATE TABLE nodedb.people(
+  `id` int NOT NULL AUTO_INCREMENT,
+  `created_at` TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+  `name` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
